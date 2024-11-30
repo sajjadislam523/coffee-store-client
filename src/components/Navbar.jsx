@@ -9,6 +9,15 @@ const Navbar = () => {
             <Link to="/addCoffee" className="text-base hover:underline">
                 Add Coffee
             </Link>
+            <Link to="/signin" className="text-base hover:underline">
+                login
+            </Link>
+            <Link to="/signup" className="text-base hover:underline">
+                Register
+            </Link>
+            <Link to="/users" className="text-base hover:underline">
+                Users
+            </Link>
         </div>
     );
     return (
